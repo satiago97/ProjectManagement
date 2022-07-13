@@ -1,0 +1,74 @@
+﻿
+
+<!DOCTYPE html>
+
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+  margin-top: 20px;
+}
+</style>
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+    <form method="post" asp-controller="Project" asp-action="RegistoProjeto">
+        <input type="text" name="nome" placeholder="Nome do projeto">
+        <p></p>
+        <input type="text" name="nome_cliente" placeholder="Cliente">
+        <p></p>
+        <input type="text" name="preco" placeholder="Preco por hora">
+        <p></p>
+        <input type="submit">
+    </form>
+</div>
+
+<h1>
+    <a asp-controller="Project" asp-action="ListarConvites">Ver convites pendentes</a>
+    <p></p>
+    <a asp-controller="Tarefas" asp-action="VerTarefasEntreDatas">Ver tarefas entre datas</a>
+</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Nome Cliente</th>
+        <th>Preco Hora</th>
+        <th>Açoes</th>
+    </tr>
+    </thead>
+    @{
+        if (Model != null)
+        {
+            foreach (var Data in Model)
+            {
+                <tr>
+                    <td>@Data.IdProjeto</td>
+                    <td>@Data.Nome</td>
+                    <td>@Data.NomeCliente</td>
+                    <td>@Data.Preco</td>
+                    <td>
+                        @Html.ActionLink("Eliminar", "GetIdParaEliminar", "Project", new {id = @Data.IdProjeto})
+                        <p></p>
+                        @Html.ActionLink("Adicionar Tarefa", "NovaTarefa", "Tarefas", new {id_projeto = @Data.IdProjeto})
+                        <p></p>
+                        @Html.ActionLink("Ver tarefas por finalizar", "VerTarefasPorTerminar", "Tarefas", new {id_projeto = @Data.IdProjeto})
+                        <p></p>
+                        @Html.ActionLink("Convidar utilizador", "ListarUtilizadores", "Project", new {id_projeto = @Data.IdProjeto})
+                        <p></p>
+                        @Html.ActionLink("Ver utilizadores", "ListarUtilizadoresNoProjeto", "Project", new {id_projeto = @Data.IdProjeto})
+                        
+                    </td>
+                    
+                </tr>
+            }
+        }
+    }
+
+</table>
+</body>
+</html>

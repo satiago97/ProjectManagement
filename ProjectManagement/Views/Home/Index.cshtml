@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Login</title>
+</head>
+<body>
+<h3>Login</h3>
+<form method="post" asp-controller="Home" asp-action="Logar">
+    <input type="text"name="username" placeholder="username">
+    <input type="password" name="password" placeholder="password">
+        
+        <input type="submit" value="login">
+    <br/>
+    <h2>Ainda não tem conta?<li><a asp-controller="Home" asp-action="Registo">Clique aqui</a></li></h2>
+</form>
+</body>
+</html>
+
+<div class="text-center">
+   
+    
+</div>

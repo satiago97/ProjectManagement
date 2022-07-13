@@ -1,0 +1,92 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjectManagement
+build_property.RootNamespace = ProjectManagement
+build_property.ProjectDir = C:\Users\tiago\OneDrive\Ambiente de Trabalho\ProjectManagement\ProjectManagement\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\tiago\OneDrive\Ambiente de Trabalho\ProjectManagement\ProjectManagement
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Home/Projetos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9qZXRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Home/Registo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Project/GetIdParaEliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxHZXRJZFBhcmFFbGltaW5hci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Project/ListarConvites.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxMaXN0YXJDb252aXRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Project/ListarUtilizadores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxMaXN0YXJVdGlsaXphZG9yZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Project/ListarUtilizadoresNoProjeto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxMaXN0YXJVdGlsaXphZG9yZXNOb1Byb2pldG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Project/NovoProjeto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxOb3ZvUHJvamV0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Shared/EditarConta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVkaXRhckNvbnRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Shared/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Tarefas/NovaTarefa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xOb3ZhVGFyZWZhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Tarefas/TarefaEntreDatas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xUYXJlZmFFbnRyZURhdGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Tarefas/VerTarefasEntreDatas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xWZXJUYXJlZmFzRW50cmVEYXRhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Tarefas/VerTarefasPorTerminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xWZXJUYXJlZmFzUG9yVGVybWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tiago/OneDrive/Ambiente de Trabalho/ProjectManagement/ProjectManagement/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kdbm0rem72

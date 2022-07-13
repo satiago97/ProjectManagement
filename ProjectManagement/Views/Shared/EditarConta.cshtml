@@ -1,0 +1,39 @@
+﻿@{
+    var user = ViewBag.User as List<ProjectManagement.Controllers.HomeController>;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+   @foreach(var Data in Model){
+        <form method="post" asp-controller="Home" asp-action="Editar">
+            <label>
+                Nome:
+            </label>
+            <input type="text" name="nome" value="@Data.Nome">
+            <p></p>
+            <label>
+                Username:
+            </label>
+            <input type="text" name="username" value="@Data.Username">
+            <p>
+            <label>
+                Password:
+            </label>
+            <input type="password" name="password" value="@Data.Password">
+            <p></p>
+            <label>Escolha um horário:</label>
+            <select name="horario" id="horario">
+                <option value="1">Horario 1</option>
+                <option value="2">Horario 2</option>
+            </select>
+            <input type="submit">
+        </form>
+   }
+
+
+</body>
+</html>

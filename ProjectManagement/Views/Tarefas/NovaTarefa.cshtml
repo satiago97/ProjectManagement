@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+  margin-top: 20px;
+}
+</style>
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+    <form method="post" asp-controller="Tarefas" asp-action="RegistoTarefa">
+        <input type="text" name="descricao" placeholder="Descrição">
+        <p></p>
+        <label>Formato: YYYY-MM-DD HH:MI:SS.</label>
+        <input type="datetime" name="data_ini" placeholder="Hora de início">
+        <p></p>
+        <input type="text" name="preco_hora" placeholder="Preço por hora">
+        <p></p>
+        <input type="submit">
+    </form>
+</div>
+
+</body>
+</html>

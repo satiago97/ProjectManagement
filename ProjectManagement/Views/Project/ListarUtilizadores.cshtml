@@ -1,0 +1,45 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+  margin-top: 20px;
+}
+</style>
+<head>
+    <title>title</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Username</th>
+
+        <th>Açoes</th>
+    </tr>
+    </thead>
+    @{
+        if (Model != null)
+        {
+            foreach (var Data in Model)
+            {
+                <tr>
+                    <td>@Data.IdUtilizador</td>
+                    <td>@Data.Nome</td>
+                    <td>@Data.Username</td>
+                    <td>
+                        @Html.ActionLink("Convidar", "ConvidarUtilizador", "Project", new {id_utilizador = @Data.IdUtilizador})
+                    </td>
+
+                </tr>
+            }
+        }
+    }
+
+</table>
+</body>
+</html>

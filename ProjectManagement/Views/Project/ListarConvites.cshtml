@@ -1,0 +1,48 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+  margin-top: 20px;
+}
+</style>
+<head>
+    <title>title</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Nome Cliente</th>
+        <th>Preco Hora</th>
+        <th>Açoes</th>
+    </tr>
+    </thead>
+    @{
+        if (Model != null)
+        {
+            foreach (var Data in Model)
+            {
+                <tr>
+                    <td>@Data.IdProjeto</td>
+                    <td>@Data.Nome</td>
+                    <td>@Data.NomeCliente</td>
+                    <td>@Data.Preco</td>
+                    <td>
+                        @Html.ActionLink("Aceitar Convite", "AceitarConvite", "Project", new {id_projeto = @Data.IdProjeto})
+                        <p></p>
+                        @Html.ActionLink("Recusar Convite", "RecusarConvite", "Project", new {id_projeto = @Data.IdProjeto})
+                    </td>
+                    
+                </tr>
+            }
+        }
+    }
+
+</table>
+</body>
+</html>
